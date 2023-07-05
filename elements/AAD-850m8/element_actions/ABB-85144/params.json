@@ -1,0 +1,12 @@
+{
+    "caption": "export",
+    "doc": "Equivalent to clicking on Download > Image from the toolbar, which creates a PNG file of the current visualization.",
+    "fields": {
+        "ABE": {
+            "caption": "Equivalent to clicking on Download > Image from the toolbar, which creates a PNG file of the current visualization.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

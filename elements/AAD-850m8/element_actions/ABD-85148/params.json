@@ -1,0 +1,20 @@
+{
+    "caption": "dialog",
+    "doc": "Display one of the export dialogs based on the dialogType parameter. One of: \"export-cross-tab\", \"export-data\", \"export-pdf\", \"export-powerpoint\", \"export-workbook\", \"share\".",
+    "fields": {
+        "ABF": {
+            "caption": "Display one of the export dialogs based on the dialogType parameter. One of: \"export-cross-tab\", \"export-data\", \"export-pdf\", \"export-powerpoint\", \"export-workbook\", \"share\".",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        },
+        "ABG": {
+            "caption": "Type",
+            "doc": "One of: \"export-cross-tab\", \"export-data\", \"export-pdf\", \"export-powerpoint\", \"export-workbook\", \"share\".",
+            "editor": "DynamicValue",
+            "name": "type",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

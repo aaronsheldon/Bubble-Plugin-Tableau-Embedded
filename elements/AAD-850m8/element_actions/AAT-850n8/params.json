@@ -1,0 +1,12 @@
+{
+    "caption": "refresh",
+    "doc": "Equivalent to clicking on the Refresh Data toolbar button.",
+    "fields": {
+        "AAv": {
+            "caption": "Equivalent to clicking on the Refresh Data toolbar button.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

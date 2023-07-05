@@ -1,0 +1,12 @@
+{
+    "caption": "pause",
+    "doc": "Pause layout updates. This is useful if you are resizing the visualization or performing multiple calls that could affect the layout.",
+    "fields": {
+        "AAt": {
+            "caption": "Pause layout updates. This is useful if you are resizing the visualization or performing multiple calls that could affect the layout.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

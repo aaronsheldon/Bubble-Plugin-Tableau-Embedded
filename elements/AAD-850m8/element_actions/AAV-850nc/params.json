@@ -1,0 +1,12 @@
+{
+    "caption": "revert",
+    "doc": "Equivalent to clicking on the Revert All toolbar button, which restores the workbook to its starting state.",
+    "fields": {
+        "AAx": {
+            "caption": "Equivalent to clicking on the Revert All toolbar button, which restores the workbook to its starting state.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

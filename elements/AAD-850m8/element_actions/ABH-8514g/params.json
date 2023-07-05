@@ -1,0 +1,28 @@
+{
+    "caption": "filter",
+    "doc": "Use this method to filter the viz before initialization. If used after initialization, it will re-render the viz. For filtering after initialization, use the other filtering methods, such as applyFilterAsync.  If you add the same filter fields using the addFilter() method and by using the <viz-filter> element in the <tableau-viz> web component, you might experience unexpected behavior.",
+    "fields": {
+        "ABI": {
+            "caption": "Use this method to filter the viz before initialization. If used after initialization, it will re-render the viz. For filtering after initialization, use the other filtering methods, such as applyFilterAsync.  If you add the same filter fields using the addFilter() method and by using the <viz-filter> element in the <tableau-viz> web component, you might experience unexpected behavior.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        },
+        "ABJ": {
+            "caption": "Field",
+            "doc": "The name of the field to filter on.",
+            "editor": "DynamicValue",
+            "name": "field",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABK": {
+            "caption": "Values",
+            "doc": "Single value or a list of comma separated values to filter on.",
+            "editor": "DynamicValue",
+            "name": "values",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

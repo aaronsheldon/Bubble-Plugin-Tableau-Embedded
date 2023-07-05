@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "data (things)",
+        "2": "technical",
+        "3": "productivity",
+        "4": "media"
+    },
+    "demo_page": "https://littlelambdas.com/tableaudemo",
+    "description": "Embed and manage publicly accessible Tableau visualizations into Bubble. Supports v3 of the Tableau Embedding API.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1643834178082x340742743588725570/Tableau-Symbol.png",
+    "license": "open_source",
+    "link": "https://help.tableau.com/current/api/embedding_api/en-us/index.html",
+    "name": "Tableau Embedded",
+    "plugin_instructions": "Drag the Tableau Viz element on to your page and specify a publicly accessible Tableau visualization URL using the render action. Provides actions:\n \n\"Render\" the Tableau visualization from the URL.\n\n\"Refresh\" the Tableau visualization.\n\n\"Pause\" the render updates.\n\n\"Resume\" the render updates.\n\n\"Undo\" the last action.\n\n\"Redo\" the last undo.\n\n\"Revert\" all the actions. "
+}

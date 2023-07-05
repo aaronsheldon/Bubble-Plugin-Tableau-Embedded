@@ -1,0 +1,12 @@
+{
+    "caption": "redo",
+    "doc": "Redoes the last action performed on a sheet.",
+    "fields": {
+        "AAu": {
+            "caption": "Redoes the last action performed on a sheet.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "caption": "undo",
+    "doc": "Undoes the last action performed on a sheet.",
+    "fields": {
+        "AAy": {
+            "caption": "Undoes the last action performed on a sheet.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

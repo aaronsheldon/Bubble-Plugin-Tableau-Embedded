@@ -1,0 +1,129 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Tableau View",
+    "events": {
+        "AAE": {
+            "caption": "initialized",
+            "doc": "Tableau visualization instantiated.",
+            "name": "initialized"
+        },
+        "ABL": {
+            "caption": "rendered",
+            "doc": "Fired when a viz first becomes interactive",
+            "name": "rendered"
+        },
+        "ABM": {
+            "caption": "URL Set",
+            "doc": "Raised when a URL action occurs.",
+            "name": "urlset"
+        }
+    },
+    "fields": {
+        "AAG": {
+            "caption": "Device",
+            "doc": "Specifies a device layout for a dashboard, if it exists. Values can be default, desktop, tablet, or phone. If not specified, defaults to loading a layout based on the smallest dimension of the hosting iframe element.",
+            "editor": "DynamicValue",
+            "name": "device",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Disable Popups",
+            "doc": "Indicates whether to suppress the execution of URL actions.",
+            "editor": "DynamicValue",
+            "name": "disablepopups",
+            "optional": true,
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAI": {
+            "caption": "Hide Tabs",
+            "doc": "Indicates whether tabs are hidden or shown.",
+            "editor": "DynamicValue",
+            "name": "hidetabs",
+            "optional": true,
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAK": {
+            "caption": "Toolbar",
+            "doc": "Specifies the position of the toolbar, if it is shown. The values can be Toolbar.Top, Toolbar.Bottom or Toolbar.Hidden. If not specified, defaults to Toolbar.Bottom.",
+            "editor": "DynamicValue",
+            "name": "toolbar",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Touch Optimize",
+            "doc": "Indicates whether to touch optimize viz controls.",
+            "editor": "DynamicValue",
+            "name": "touchoptimize",
+            "optional": true,
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAp": {
+            "caption": "Hide Web Edit",
+            "doc": "Indicates whether the Edit button is hidden or visible. If not set, defaults to false, meaning that the Edit button is visible.",
+            "editor": "DynamicValue",
+            "name": "hideweb",
+            "optional": true,
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAq": {
+            "caption": "Hide Desktop Edit",
+            "doc": "Indicates whether the Edit in Desktop button is hidden or visible. If not specified, defaults to false, meaning that the Edit in Desktop button is visible.",
+            "editor": "DynamicValue",
+            "name": "hidedesktop",
+            "optional": true,
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AAr": {
+            "caption": "Suppress Default Edit",
+            "doc": "Indicates whether the default edit behavior is suppressed. If not specified, defaults to false, meaning that the default edit behavior is not suppressed.",
+            "editor": "DynamicValue",
+            "name": "suppressdefault",
+            "optional": true,
+            "rank": 7,
+            "value": "boolean"
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-pie-graph",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAn": {
+            "caption": "initialized",
+            "doc": "Tableau visualization instantiated.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\t// Empty on start\n    return null;\n}"
+            },
+            "name": "initialized",
+            "value": "boolean"
+        },
+        "ABN": {
+            "caption": "URL",
+            "doc": " The URL associated with the event.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\t// Empty on start\n    return null;\n}"
+            },
+            "name": "url",
+            "value": "text"
+        }
+    }
+}

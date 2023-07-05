@@ -1,0 +1,20 @@
+{
+    "caption": "render",
+    "doc": "Load and render the Tableau visualization.",
+    "fields": {
+        "AAQ": {
+            "caption": "Source URL",
+            "doc": "URL source of the visualization on Tableau Public.",
+            "editor": "DynamicValue",
+            "name": "sourceurl",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "Load and render the Tableau visualization.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

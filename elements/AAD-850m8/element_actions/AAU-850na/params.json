@@ -1,0 +1,12 @@
+{
+    "caption": "resume",
+    "doc": "Resume layout updates.",
+    "fields": {
+        "AAw": {
+            "caption": "Resume layout updates.",
+            "editor": "Label",
+            "name": "information",
+            "rank": 0
+        }
+    }
+}

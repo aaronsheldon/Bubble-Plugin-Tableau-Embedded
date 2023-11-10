@@ -12,5 +12,6 @@
     "license": "open_source",
     "link": "https://help.tableau.com/current/api/embedding_api/en-us/index.html",
     "name": "Tableau Embedded",
-    "plugin_instructions": "Drag the Tableau Viz element on to your page and specify a publicly accessible Tableau visualization URL using the render action. Provides actions:\n \n\"Render\" the Tableau visualization from the URL.\n\n\"Refresh\" the Tableau visualization.\n\n\"Pause\" the render updates.\n\n\"Resume\" the render updates.\n\n\"Undo\" the last action.\n\n\"Redo\" the last undo.\n\n\"Revert\" all the actions. "
+    "plugin_instructions": "Drag the Tableau Viz element on to your page and specify a publicly accessible Tableau visualization URL using the render action. Provides actions:\n \n\"Render\" the Tableau visualization from the URL.\n\n\"Refresh\" the Tableau visualization.\n\n\"Pause\" the render updates.\n\n\"Resume\" the render updates.\n\n\"Undo\" the last action.\n\n\"Redo\" the last undo.\n\n\"Revert\" all the actions. ",
+    "sa_node_version": 18
 }
